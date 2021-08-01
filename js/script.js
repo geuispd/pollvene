@@ -7,7 +7,7 @@ if (displayed){
   embedElement.innerHTML="<h2>Maaf, anda sudah melakukan voting!</h2>"
 } else if(!displayed && displayed === "") {
   setCookie("displayed_typeform", true, 365);
-  showEmbed();
+  //showEmbed();
 }
 
 function showEmbed(){ // call this function to display the embed typeform
