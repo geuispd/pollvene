@@ -1,4 +1,4 @@
-var url = "https://picsoung.typeform.com/to/QXS2h1#utm_source=tf-embed-cookies" // NOTE: Replace with your typeform URL
+var url = "https://form.typeform.com/to/KqApIYTk?typeform-medium=embed-snippet" // NOTE: Replace with your typeform URL
 
 const embedElement = document.querySelector('.target-dom-node') // NOTE: `.target-dom-node` is the target DOM element from your website or web app
 
@@ -7,7 +7,7 @@ if (displayed){
   embedElement.innerHTML="<h2>Maaf, anda sudah melakukan voting!</h2>"
 } else if(!displayed && displayed === "") {
   setCookie("displayed_typeform", true, 365);
-  //showEmbed();
+  showEmbed();
 }
 
 function showEmbed(){ // call this function to display the embed typeform
