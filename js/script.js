@@ -4,7 +4,7 @@ const embedElement = document.querySelector('.target-dom-node') // NOTE: `.targe
 
 var displayed = getCookie("displayed_typeform"); //
 if (displayed){
-  embedElement.innerHTML="<h2>Typeform already displayed once.</h2>"
+  embedElement.innerHTML="<h2>Maaf, anda sudah melakukan voting!</h2>"
 } else if(!displayed && displayed === "") {
   setCookie("displayed_typeform", true, 365);
   showEmbed();
